@@ -36,6 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
 - Create a Resource Group
 - Create a Windows 10 Virtual Machine (VM)
 - While creating the VM, select the previously created Resource Group
@@ -44,6 +45,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - While creating the VM, select the previously created Resource Group and Virtual Network—the Virtual Network MUST BE THE SAME.
 - Authentication type: Username/Password
 - Ensure both VMs are in the same Virtual Network / Subnet
+  
 </p>
 <br />
 

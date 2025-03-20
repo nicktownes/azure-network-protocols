@@ -53,7 +53,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Use Remote Desktop to connect to your Windows 10 Virtual Machine
+- Within your Windows 10 Virtual Machine, Install Wireshark
+- Open Wireshark and start packet capture
+- Within Wireshark, filter for ICMP traffic only
+- Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
+  - Observe ping requests and replies within WireShark
+- From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and 
+observe the traffic in WireShark
+
 </p>
 <br />
 
